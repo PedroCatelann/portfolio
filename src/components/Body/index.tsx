@@ -20,6 +20,8 @@ import { faYarn } from "@fortawesome/free-brands-svg-icons";
 import { faGit } from "@fortawesome/free-brands-svg-icons";
 import { faNodeJs } from "@fortawesome/free-brands-svg-icons";
 import { faCss3 } from "@fortawesome/free-brands-svg-icons";
+import avatar from "../../assets/avatar.png";
+import pdf from "../../assets/English - Pedro Catelan.pdf";
 
 export default function Body() {
   const [typedText, setTypedText] = useState("");
@@ -48,7 +50,7 @@ export default function Body() {
         <div className="container mx-auto px-4">
           <img
             className="h-24 w-24 mx-auto bg-gray-200 shadow-2xl rounded-full mb-4 transition-transform duration-300 hover:scale-125"
-            src="/assets/avatar.png"
+            src={avatar}
             alt="Avatar"
           ></img>
           <p className="text-gray-700 text-md text-center max-w-2xl mx-auto mb-4">
@@ -88,7 +90,7 @@ export default function Body() {
           </div>
           <div className="flex flex-row justify-center mb-6 gap-2">
             <a
-              href="/assets/English - Pedro Catelan.pdf"
+              href={pdf}
               download="Pedro_Catelan_CV.pdf"
               className="group bg-white-500 text-gray-600 text-sm border border-gray-600 px-4 py-2 rounded shadow hover:bg-gray-600 hover:text-white transition duration-300 flex items-center"
             >

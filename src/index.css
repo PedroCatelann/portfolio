@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+body {
+  font-family: "Roboto", serif !important;
+
+  header {
+    font-size: 14px;
+    font-weight: 700;
+  }
+  
+}
+
+/* secondary font */
+.secondary-font, #secondary-font {
+  font-family: "Lora", serif;
+}
+
+/* primary font */
+.primary-font, #primary-font {
+  font-family: "Alata", sans-serif;
+}
+
+/* Default font */
+.default-font, #default-font {
+  font-family: "Roboto", sans-serif;
+}
